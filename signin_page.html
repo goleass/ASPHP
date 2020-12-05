@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body>
+    <form action="criaUsuario.php" method="post">
+        Nome:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required name='nome' placeholder='João Silva'><br>
+        Nascimento:
+        <input type="date" required name='data_nasc'><br>
+        CPF:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required name='cpf' placeholder='04555151501'><br>
+        Sexo:<br>
+        Masculino
+        <input type='radio' required name='sexo' value='m' checked><br>
+        Feminino
+        <input type='radio' required name='sexo' value='f'><br>
+        Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" required name='email' placeholder='joao.silva@gmail.com'><br>
+        Senha:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" required name='password' placeholder='*******'><br><br>
+        <input type="submit" value="criar">
+    </form>
+</body>
+</html>
